@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beansProjectDescription>
 	<version>1</version>
-	<pluginVersion><![CDATA[2.6.0.201103160035-RELEASE]]></pluginVersion>
+	<pluginVersion><![CDATA[3.9.7.201812201020-RELEASE]]></pluginVersion>
 	<configSuffixes>
 		<configSuffix><![CDATA[xml]]></configSuffix>
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>src/test/java/org/springframework/context/annotation/configuration/ImportXmlConfig-context.xml</config>
-		<config>src/test/java/org/springframework/context/annotation/configuration/SecondLevelSubConfig-context.xml</config>
-		<config>src/test/java/org/springframework/context/annotation/configuration/ImportXmlWithAopNamespace-context.xml</config>
-		<config>src/test/java/org/springframework/context/annotation/Spr6602Tests-context.xml</config>
+		<config>src/main/resources/com/zhe/bean/life/cycle/ContextTestSample.xml</config>
 	</configs>
+	<autoconfigs>
+	</autoconfigs>
 	<configSets>
 	</configSets>
 </beansProjectDescription>
